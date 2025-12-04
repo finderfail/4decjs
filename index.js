@@ -17,18 +17,21 @@ const getStringLength = (str) => {
 const getStringFromTemplate = (firstName, lastName) => {
     return `Hello, ${firstName} ${lastName}!`;
 }
+// console.log(getStringFromTemplate("Ilya", "Lvov"))
 
 
 //4 
 const getChar = (str, position) => {
     return str[position - 1];
 }
+// console.log(getChar("sdfjlsdjflskdf", 3))
 
 //5
 
 const removeFirstOccurrences = (str, substr) => {
     return str.replace(substr, '');
 }
+// console.log(removeFirstOccurrences("dsjfhksjfkdjsf", "dsj"))
 
 
 //6 
@@ -44,3 +47,5 @@ const getRectangleString = (width, height) => {
     result += bottom;
     return result;
 }
+
+// console.log(getRectangleString(5, 4))
